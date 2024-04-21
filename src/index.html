@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="interchange">
+        <div class="clock">🕐</div>
+        <div class="editClock">📝</div>
+      </div>
+      <div class="charts">
+        <div class="timer">Timer</div>
+      <div class="graph">Chart</div>
+      
+    </div>
+    <div class="barChart"><canvas id="acquisitions"></canvas></div>
+      <div class="main">
+        
+      <div class="inputBox">
+       
+        <input type="text" placeholder="Add your task here..." id="tracker"/>
+          <div class="stopwatch">
+        <div id="time">00:00:00</div>
+        <div class="Sbuttons">
+        <button class="start btns">Start</button>
+        <button class="stop btns">Stop</button>
+      </div>
+
+      </div>
+
+      
+      
+        <!-- <div class="toggle">
+          <div class="timeBtn">time</div>
+          <div class="editBtn">Edit</div>
+        </div> -->
+      </div>
+
+      <div class="inputBox1">
+       
+        <input type="text" placeholder="Add your task here..." class="saver"/>
+          <div class="stopwatch">
+            <input type="time" class="editStartTime" name="appt" required />
+            <input type="time" class="editStopTime" name="appt" required />
+            <input type="date" class="editDates" name="trip-start" value="2024-07-22" />
+        <div class="Sbuttons">
+        <button class="save btns">Save</button>
+      </div>
+      </div>
+        <!-- <div class="toggle">
+          <div class="timeBtn">time</div>
+          <div class="editBtn">Edit</div>
+        </div> -->
+      </div>
+
+      <div class="bottoms">
+        <div id="lists">
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
